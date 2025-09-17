@@ -1,54 +1,67 @@
 #![no_std]
 
 #[macro_export]
-macro_rules! generate_mimic {
-    ($( #[$meta:meta] )* $mimic_ident:ident for $ty:ty) => {
-        $( #[$meta] )*
-        pub struct $mimic_ident {
-            _size: [
-                <$crate::Align<{::core::mem::align_of::<$ty>()}> as $crate::Alignment>::Archetype;
-                ::core::mem::size_of::<$ty>()
-                    / ::core::mem::size_of::<<$crate::Align<{::core::mem::align_of::<$ty>()}> as $crate::Alignment>::Archetype>()],
-        }
+macro_rules! impl_mimic {
+    ($ty:ty) => {
+        impl $ty {
+            pub const unsafe fn from_mimic(
+                mimic: <$crate::SizeAndAlign<
+                    { ::core::mem::size_of::<$ty>() },
+                    { ::core::mem::align_of::<$ty>() },
+                > as $crate::Mimic>::Archetype,
+            ) -> Self {
+                unsafe { ::core::mem::transmute(mimic) }
+            }
 
-        impl $mimic_ident {
-            pub const fn new() -> Self {
-                Self {
-                    _size: [0; _],
-
-                }
+            pub const fn into_mimic(
+                self,
+            ) -> <$crate::SizeAndAlign<
+                { ::core::mem::size_of::<$ty>() },
+                { ::core::mem::align_of::<$ty>() },
+            > as $crate::Mimic>::Archetype {
+                unsafe { ::core::mem::transmute(self) }
             }
         }
 
         const _: () = {
-            assert!(::core::mem::size_of::<$ty>() - ::core::mem::size_of::<$mimic_ident>() == 0);
-            assert!(::core::mem::align_of::<$ty>() - ::core::mem::align_of::<$mimic_ident>() == 0);
+            assert!(
+                ::core::mem::size_of::<$ty>()
+                    - ::core::mem::size_of::<
+                        <$crate::SizeAndAlign<
+                            { ::core::mem::size_of::<$ty>() },
+                            { ::core::mem::align_of::<$ty>() },
+                        > as $crate::Mimic>::Archetype,
+                    >()
+                    == 0
+            );
+
+            assert!(
+                ::core::mem::align_of::<$ty>()
+                    - ::core::mem::align_of::<
+                        <$crate::SizeAndAlign<
+                            { ::core::mem::size_of::<$ty>() },
+                            { ::core::mem::align_of::<$ty>() },
+                        > as $crate::Mimic>::Archetype,
+                    >()
+                    == 0
+            );
         };
     };
 }
 
 #[doc(hidden)]
 #[repr(transparent)]
-pub struct Align<const N: usize>
+pub struct SizeAndAlign<const SIZE: usize, const ALIGN: usize>
 where
-    Self: Alignment;
+    Self: Mimic;
 
 #[doc(hidden)]
-pub unsafe trait Alignment: private::Sealed {
+pub unsafe trait Mimic: private::Sealed {
     type Archetype;
 }
 
-#[rustfmt::skip] unsafe impl Alignment for Align<1> { type Archetype = u8; }
-#[rustfmt::skip] unsafe impl Alignment for Align<2> { type Archetype = u16; }
-#[rustfmt::skip] unsafe impl Alignment for Align<4> { type Archetype = u32; }
-#[rustfmt::skip] unsafe impl Alignment for Align<8> { type Archetype = u64; }
-#[rustfmt::skip] unsafe impl Alignment for Align<16> { type Archetype = u128; }
-
-#[rustfmt::skip] impl private::Sealed for Align<1> { }
-#[rustfmt::skip] impl private::Sealed for Align<2> { }
-#[rustfmt::skip] impl private::Sealed for Align<4> { }
-#[rustfmt::skip] impl private::Sealed for Align<8> { }
-#[rustfmt::skip] impl private::Sealed for Align<16> { }
+mod types;
+pub use types::*;
 
 mod private {
     /// This trait is used internally to map an `Align<N>` to a unit
