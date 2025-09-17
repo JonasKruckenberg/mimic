@@ -6,7 +6,7 @@ macro_rules! generate_mimic {
         $( #[$meta] )*
         pub struct $mimic_ident {
             _size: [
-                ::core::mem::MaybeUninit<<$crate::Align<{::core::mem::align_of::<$ty>()}> as $crate::Alignment>::Archetype>;
+                <$crate::Align<{::core::mem::align_of::<$ty>()}> as $crate::Alignment>::Archetype;
                 ::core::mem::size_of::<$ty>()
                     / ::core::mem::size_of::<<$crate::Align<{::core::mem::align_of::<$ty>()}> as $crate::Alignment>::Archetype>()],
         }
@@ -14,7 +14,7 @@ macro_rules! generate_mimic {
         impl $mimic_ident {
             pub const fn new() -> Self {
                 Self {
-                    _size: [::core::mem::MaybeUninit::uninit(); _],
+                    _size: [0; _],
 
                 }
             }
@@ -28,6 +28,7 @@ macro_rules! generate_mimic {
 }
 
 #[doc(hidden)]
+#[repr(transparent)]
 pub struct Align<const N: usize>
 where
     Self: Alignment;
