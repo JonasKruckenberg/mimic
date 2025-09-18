@@ -4,7 +4,7 @@ use std::{
 };
 
 const ALIGNED: [(u8, &str); 5] = [(1, "u8"), (2, "u16"), (4, "u32"), (8, "u64"), (16, "u128")];
-const MAX_SIZE: u8 = 100;
+const MAX_SIZE: u8 = 200;
 
 fn main() {
     let mut contents = String::new();

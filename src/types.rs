@@ -2969,3 +2969,2913 @@ impl Size100Align4 {
 unsafe impl crate::Mimic for crate::SizeAndAlign<100,4> { type Archetype = Size100Align4; }
 impl crate::private::Sealed for crate::SizeAndAlign<100,4> {}
                     
+/// A type with a size of `101` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size101Align1([::core::mem::MaybeUninit<u8>; 101]);
+impl Size101Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<101,1> { type Archetype = Size101Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<101,1> {}
+                    
+/// A type with a size of `102` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size102Align1([::core::mem::MaybeUninit<u8>; 102]);
+impl Size102Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<102,1> { type Archetype = Size102Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<102,1> {}
+                    
+/// A type with a size of `102` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size102Align2([::core::mem::MaybeUninit<u16>; 51]);
+impl Size102Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<102,2> { type Archetype = Size102Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<102,2> {}
+                    
+/// A type with a size of `103` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size103Align1([::core::mem::MaybeUninit<u8>; 103]);
+impl Size103Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<103,1> { type Archetype = Size103Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<103,1> {}
+                    
+/// A type with a size of `104` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size104Align1([::core::mem::MaybeUninit<u8>; 104]);
+impl Size104Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<104,1> { type Archetype = Size104Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<104,1> {}
+                    
+/// A type with a size of `104` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size104Align2([::core::mem::MaybeUninit<u16>; 52]);
+impl Size104Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<104,2> { type Archetype = Size104Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<104,2> {}
+                    
+/// A type with a size of `104` bytes and alignment `4`.
+#[repr(C, align(4))]
+pub struct Size104Align4([::core::mem::MaybeUninit<u32>; 26]);
+impl Size104Align4 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<104,4> { type Archetype = Size104Align4; }
+impl crate::private::Sealed for crate::SizeAndAlign<104,4> {}
+                    
+/// A type with a size of `104` bytes and alignment `8`.
+#[repr(C, align(8))]
+pub struct Size104Align8([::core::mem::MaybeUninit<u64>; 13]);
+impl Size104Align8 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<104,8> { type Archetype = Size104Align8; }
+impl crate::private::Sealed for crate::SizeAndAlign<104,8> {}
+                    
+/// A type with a size of `105` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size105Align1([::core::mem::MaybeUninit<u8>; 105]);
+impl Size105Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<105,1> { type Archetype = Size105Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<105,1> {}
+                    
+/// A type with a size of `106` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size106Align1([::core::mem::MaybeUninit<u8>; 106]);
+impl Size106Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<106,1> { type Archetype = Size106Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<106,1> {}
+                    
+/// A type with a size of `106` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size106Align2([::core::mem::MaybeUninit<u16>; 53]);
+impl Size106Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<106,2> { type Archetype = Size106Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<106,2> {}
+                    
+/// A type with a size of `107` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size107Align1([::core::mem::MaybeUninit<u8>; 107]);
+impl Size107Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<107,1> { type Archetype = Size107Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<107,1> {}
+                    
+/// A type with a size of `108` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size108Align1([::core::mem::MaybeUninit<u8>; 108]);
+impl Size108Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<108,1> { type Archetype = Size108Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<108,1> {}
+                    
+/// A type with a size of `108` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size108Align2([::core::mem::MaybeUninit<u16>; 54]);
+impl Size108Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<108,2> { type Archetype = Size108Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<108,2> {}
+                    
+/// A type with a size of `108` bytes and alignment `4`.
+#[repr(C, align(4))]
+pub struct Size108Align4([::core::mem::MaybeUninit<u32>; 27]);
+impl Size108Align4 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<108,4> { type Archetype = Size108Align4; }
+impl crate::private::Sealed for crate::SizeAndAlign<108,4> {}
+                    
+/// A type with a size of `109` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size109Align1([::core::mem::MaybeUninit<u8>; 109]);
+impl Size109Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<109,1> { type Archetype = Size109Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<109,1> {}
+                    
+/// A type with a size of `110` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size110Align1([::core::mem::MaybeUninit<u8>; 110]);
+impl Size110Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<110,1> { type Archetype = Size110Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<110,1> {}
+                    
+/// A type with a size of `110` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size110Align2([::core::mem::MaybeUninit<u16>; 55]);
+impl Size110Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<110,2> { type Archetype = Size110Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<110,2> {}
+                    
+/// A type with a size of `111` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size111Align1([::core::mem::MaybeUninit<u8>; 111]);
+impl Size111Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<111,1> { type Archetype = Size111Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<111,1> {}
+                    
+/// A type with a size of `112` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size112Align1([::core::mem::MaybeUninit<u8>; 112]);
+impl Size112Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<112,1> { type Archetype = Size112Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<112,1> {}
+                    
+/// A type with a size of `112` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size112Align2([::core::mem::MaybeUninit<u16>; 56]);
+impl Size112Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<112,2> { type Archetype = Size112Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<112,2> {}
+                    
+/// A type with a size of `112` bytes and alignment `4`.
+#[repr(C, align(4))]
+pub struct Size112Align4([::core::mem::MaybeUninit<u32>; 28]);
+impl Size112Align4 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<112,4> { type Archetype = Size112Align4; }
+impl crate::private::Sealed for crate::SizeAndAlign<112,4> {}
+                    
+/// A type with a size of `112` bytes and alignment `8`.
+#[repr(C, align(8))]
+pub struct Size112Align8([::core::mem::MaybeUninit<u64>; 14]);
+impl Size112Align8 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<112,8> { type Archetype = Size112Align8; }
+impl crate::private::Sealed for crate::SizeAndAlign<112,8> {}
+                    
+/// A type with a size of `112` bytes and alignment `16`.
+#[repr(C, align(16))]
+pub struct Size112Align16([::core::mem::MaybeUninit<u128>; 7]);
+impl Size112Align16 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<112,16> { type Archetype = Size112Align16; }
+impl crate::private::Sealed for crate::SizeAndAlign<112,16> {}
+                    
+/// A type with a size of `113` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size113Align1([::core::mem::MaybeUninit<u8>; 113]);
+impl Size113Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<113,1> { type Archetype = Size113Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<113,1> {}
+                    
+/// A type with a size of `114` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size114Align1([::core::mem::MaybeUninit<u8>; 114]);
+impl Size114Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<114,1> { type Archetype = Size114Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<114,1> {}
+                    
+/// A type with a size of `114` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size114Align2([::core::mem::MaybeUninit<u16>; 57]);
+impl Size114Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<114,2> { type Archetype = Size114Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<114,2> {}
+                    
+/// A type with a size of `115` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size115Align1([::core::mem::MaybeUninit<u8>; 115]);
+impl Size115Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<115,1> { type Archetype = Size115Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<115,1> {}
+                    
+/// A type with a size of `116` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size116Align1([::core::mem::MaybeUninit<u8>; 116]);
+impl Size116Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<116,1> { type Archetype = Size116Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<116,1> {}
+                    
+/// A type with a size of `116` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size116Align2([::core::mem::MaybeUninit<u16>; 58]);
+impl Size116Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<116,2> { type Archetype = Size116Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<116,2> {}
+                    
+/// A type with a size of `116` bytes and alignment `4`.
+#[repr(C, align(4))]
+pub struct Size116Align4([::core::mem::MaybeUninit<u32>; 29]);
+impl Size116Align4 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<116,4> { type Archetype = Size116Align4; }
+impl crate::private::Sealed for crate::SizeAndAlign<116,4> {}
+                    
+/// A type with a size of `117` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size117Align1([::core::mem::MaybeUninit<u8>; 117]);
+impl Size117Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<117,1> { type Archetype = Size117Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<117,1> {}
+                    
+/// A type with a size of `118` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size118Align1([::core::mem::MaybeUninit<u8>; 118]);
+impl Size118Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<118,1> { type Archetype = Size118Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<118,1> {}
+                    
+/// A type with a size of `118` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size118Align2([::core::mem::MaybeUninit<u16>; 59]);
+impl Size118Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<118,2> { type Archetype = Size118Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<118,2> {}
+                    
+/// A type with a size of `119` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size119Align1([::core::mem::MaybeUninit<u8>; 119]);
+impl Size119Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<119,1> { type Archetype = Size119Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<119,1> {}
+                    
+/// A type with a size of `120` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size120Align1([::core::mem::MaybeUninit<u8>; 120]);
+impl Size120Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<120,1> { type Archetype = Size120Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<120,1> {}
+                    
+/// A type with a size of `120` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size120Align2([::core::mem::MaybeUninit<u16>; 60]);
+impl Size120Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<120,2> { type Archetype = Size120Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<120,2> {}
+                    
+/// A type with a size of `120` bytes and alignment `4`.
+#[repr(C, align(4))]
+pub struct Size120Align4([::core::mem::MaybeUninit<u32>; 30]);
+impl Size120Align4 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<120,4> { type Archetype = Size120Align4; }
+impl crate::private::Sealed for crate::SizeAndAlign<120,4> {}
+                    
+/// A type with a size of `120` bytes and alignment `8`.
+#[repr(C, align(8))]
+pub struct Size120Align8([::core::mem::MaybeUninit<u64>; 15]);
+impl Size120Align8 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<120,8> { type Archetype = Size120Align8; }
+impl crate::private::Sealed for crate::SizeAndAlign<120,8> {}
+                    
+/// A type with a size of `121` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size121Align1([::core::mem::MaybeUninit<u8>; 121]);
+impl Size121Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<121,1> { type Archetype = Size121Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<121,1> {}
+                    
+/// A type with a size of `122` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size122Align1([::core::mem::MaybeUninit<u8>; 122]);
+impl Size122Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<122,1> { type Archetype = Size122Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<122,1> {}
+                    
+/// A type with a size of `122` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size122Align2([::core::mem::MaybeUninit<u16>; 61]);
+impl Size122Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<122,2> { type Archetype = Size122Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<122,2> {}
+                    
+/// A type with a size of `123` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size123Align1([::core::mem::MaybeUninit<u8>; 123]);
+impl Size123Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<123,1> { type Archetype = Size123Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<123,1> {}
+                    
+/// A type with a size of `124` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size124Align1([::core::mem::MaybeUninit<u8>; 124]);
+impl Size124Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<124,1> { type Archetype = Size124Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<124,1> {}
+                    
+/// A type with a size of `124` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size124Align2([::core::mem::MaybeUninit<u16>; 62]);
+impl Size124Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<124,2> { type Archetype = Size124Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<124,2> {}
+                    
+/// A type with a size of `124` bytes and alignment `4`.
+#[repr(C, align(4))]
+pub struct Size124Align4([::core::mem::MaybeUninit<u32>; 31]);
+impl Size124Align4 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<124,4> { type Archetype = Size124Align4; }
+impl crate::private::Sealed for crate::SizeAndAlign<124,4> {}
+                    
+/// A type with a size of `125` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size125Align1([::core::mem::MaybeUninit<u8>; 125]);
+impl Size125Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<125,1> { type Archetype = Size125Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<125,1> {}
+                    
+/// A type with a size of `126` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size126Align1([::core::mem::MaybeUninit<u8>; 126]);
+impl Size126Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<126,1> { type Archetype = Size126Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<126,1> {}
+                    
+/// A type with a size of `126` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size126Align2([::core::mem::MaybeUninit<u16>; 63]);
+impl Size126Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<126,2> { type Archetype = Size126Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<126,2> {}
+                    
+/// A type with a size of `127` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size127Align1([::core::mem::MaybeUninit<u8>; 127]);
+impl Size127Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<127,1> { type Archetype = Size127Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<127,1> {}
+                    
+/// A type with a size of `128` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size128Align1([::core::mem::MaybeUninit<u8>; 128]);
+impl Size128Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<128,1> { type Archetype = Size128Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<128,1> {}
+                    
+/// A type with a size of `128` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size128Align2([::core::mem::MaybeUninit<u16>; 64]);
+impl Size128Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<128,2> { type Archetype = Size128Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<128,2> {}
+                    
+/// A type with a size of `128` bytes and alignment `4`.
+#[repr(C, align(4))]
+pub struct Size128Align4([::core::mem::MaybeUninit<u32>; 32]);
+impl Size128Align4 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<128,4> { type Archetype = Size128Align4; }
+impl crate::private::Sealed for crate::SizeAndAlign<128,4> {}
+                    
+/// A type with a size of `128` bytes and alignment `8`.
+#[repr(C, align(8))]
+pub struct Size128Align8([::core::mem::MaybeUninit<u64>; 16]);
+impl Size128Align8 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<128,8> { type Archetype = Size128Align8; }
+impl crate::private::Sealed for crate::SizeAndAlign<128,8> {}
+                    
+/// A type with a size of `128` bytes and alignment `16`.
+#[repr(C, align(16))]
+pub struct Size128Align16([::core::mem::MaybeUninit<u128>; 8]);
+impl Size128Align16 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<128,16> { type Archetype = Size128Align16; }
+impl crate::private::Sealed for crate::SizeAndAlign<128,16> {}
+                    
+/// A type with a size of `129` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size129Align1([::core::mem::MaybeUninit<u8>; 129]);
+impl Size129Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<129,1> { type Archetype = Size129Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<129,1> {}
+                    
+/// A type with a size of `130` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size130Align1([::core::mem::MaybeUninit<u8>; 130]);
+impl Size130Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<130,1> { type Archetype = Size130Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<130,1> {}
+                    
+/// A type with a size of `130` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size130Align2([::core::mem::MaybeUninit<u16>; 65]);
+impl Size130Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<130,2> { type Archetype = Size130Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<130,2> {}
+                    
+/// A type with a size of `131` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size131Align1([::core::mem::MaybeUninit<u8>; 131]);
+impl Size131Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<131,1> { type Archetype = Size131Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<131,1> {}
+                    
+/// A type with a size of `132` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size132Align1([::core::mem::MaybeUninit<u8>; 132]);
+impl Size132Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<132,1> { type Archetype = Size132Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<132,1> {}
+                    
+/// A type with a size of `132` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size132Align2([::core::mem::MaybeUninit<u16>; 66]);
+impl Size132Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<132,2> { type Archetype = Size132Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<132,2> {}
+                    
+/// A type with a size of `132` bytes and alignment `4`.
+#[repr(C, align(4))]
+pub struct Size132Align4([::core::mem::MaybeUninit<u32>; 33]);
+impl Size132Align4 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<132,4> { type Archetype = Size132Align4; }
+impl crate::private::Sealed for crate::SizeAndAlign<132,4> {}
+                    
+/// A type with a size of `133` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size133Align1([::core::mem::MaybeUninit<u8>; 133]);
+impl Size133Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<133,1> { type Archetype = Size133Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<133,1> {}
+                    
+/// A type with a size of `134` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size134Align1([::core::mem::MaybeUninit<u8>; 134]);
+impl Size134Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<134,1> { type Archetype = Size134Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<134,1> {}
+                    
+/// A type with a size of `134` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size134Align2([::core::mem::MaybeUninit<u16>; 67]);
+impl Size134Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<134,2> { type Archetype = Size134Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<134,2> {}
+                    
+/// A type with a size of `135` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size135Align1([::core::mem::MaybeUninit<u8>; 135]);
+impl Size135Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<135,1> { type Archetype = Size135Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<135,1> {}
+                    
+/// A type with a size of `136` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size136Align1([::core::mem::MaybeUninit<u8>; 136]);
+impl Size136Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<136,1> { type Archetype = Size136Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<136,1> {}
+                    
+/// A type with a size of `136` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size136Align2([::core::mem::MaybeUninit<u16>; 68]);
+impl Size136Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<136,2> { type Archetype = Size136Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<136,2> {}
+                    
+/// A type with a size of `136` bytes and alignment `4`.
+#[repr(C, align(4))]
+pub struct Size136Align4([::core::mem::MaybeUninit<u32>; 34]);
+impl Size136Align4 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<136,4> { type Archetype = Size136Align4; }
+impl crate::private::Sealed for crate::SizeAndAlign<136,4> {}
+                    
+/// A type with a size of `136` bytes and alignment `8`.
+#[repr(C, align(8))]
+pub struct Size136Align8([::core::mem::MaybeUninit<u64>; 17]);
+impl Size136Align8 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<136,8> { type Archetype = Size136Align8; }
+impl crate::private::Sealed for crate::SizeAndAlign<136,8> {}
+                    
+/// A type with a size of `137` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size137Align1([::core::mem::MaybeUninit<u8>; 137]);
+impl Size137Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<137,1> { type Archetype = Size137Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<137,1> {}
+                    
+/// A type with a size of `138` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size138Align1([::core::mem::MaybeUninit<u8>; 138]);
+impl Size138Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<138,1> { type Archetype = Size138Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<138,1> {}
+                    
+/// A type with a size of `138` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size138Align2([::core::mem::MaybeUninit<u16>; 69]);
+impl Size138Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<138,2> { type Archetype = Size138Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<138,2> {}
+                    
+/// A type with a size of `139` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size139Align1([::core::mem::MaybeUninit<u8>; 139]);
+impl Size139Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<139,1> { type Archetype = Size139Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<139,1> {}
+                    
+/// A type with a size of `140` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size140Align1([::core::mem::MaybeUninit<u8>; 140]);
+impl Size140Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<140,1> { type Archetype = Size140Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<140,1> {}
+                    
+/// A type with a size of `140` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size140Align2([::core::mem::MaybeUninit<u16>; 70]);
+impl Size140Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<140,2> { type Archetype = Size140Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<140,2> {}
+                    
+/// A type with a size of `140` bytes and alignment `4`.
+#[repr(C, align(4))]
+pub struct Size140Align4([::core::mem::MaybeUninit<u32>; 35]);
+impl Size140Align4 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<140,4> { type Archetype = Size140Align4; }
+impl crate::private::Sealed for crate::SizeAndAlign<140,4> {}
+                    
+/// A type with a size of `141` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size141Align1([::core::mem::MaybeUninit<u8>; 141]);
+impl Size141Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<141,1> { type Archetype = Size141Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<141,1> {}
+                    
+/// A type with a size of `142` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size142Align1([::core::mem::MaybeUninit<u8>; 142]);
+impl Size142Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<142,1> { type Archetype = Size142Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<142,1> {}
+                    
+/// A type with a size of `142` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size142Align2([::core::mem::MaybeUninit<u16>; 71]);
+impl Size142Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<142,2> { type Archetype = Size142Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<142,2> {}
+                    
+/// A type with a size of `143` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size143Align1([::core::mem::MaybeUninit<u8>; 143]);
+impl Size143Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<143,1> { type Archetype = Size143Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<143,1> {}
+                    
+/// A type with a size of `144` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size144Align1([::core::mem::MaybeUninit<u8>; 144]);
+impl Size144Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<144,1> { type Archetype = Size144Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<144,1> {}
+                    
+/// A type with a size of `144` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size144Align2([::core::mem::MaybeUninit<u16>; 72]);
+impl Size144Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<144,2> { type Archetype = Size144Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<144,2> {}
+                    
+/// A type with a size of `144` bytes and alignment `4`.
+#[repr(C, align(4))]
+pub struct Size144Align4([::core::mem::MaybeUninit<u32>; 36]);
+impl Size144Align4 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<144,4> { type Archetype = Size144Align4; }
+impl crate::private::Sealed for crate::SizeAndAlign<144,4> {}
+                    
+/// A type with a size of `144` bytes and alignment `8`.
+#[repr(C, align(8))]
+pub struct Size144Align8([::core::mem::MaybeUninit<u64>; 18]);
+impl Size144Align8 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<144,8> { type Archetype = Size144Align8; }
+impl crate::private::Sealed for crate::SizeAndAlign<144,8> {}
+                    
+/// A type with a size of `144` bytes and alignment `16`.
+#[repr(C, align(16))]
+pub struct Size144Align16([::core::mem::MaybeUninit<u128>; 9]);
+impl Size144Align16 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<144,16> { type Archetype = Size144Align16; }
+impl crate::private::Sealed for crate::SizeAndAlign<144,16> {}
+                    
+/// A type with a size of `145` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size145Align1([::core::mem::MaybeUninit<u8>; 145]);
+impl Size145Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<145,1> { type Archetype = Size145Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<145,1> {}
+                    
+/// A type with a size of `146` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size146Align1([::core::mem::MaybeUninit<u8>; 146]);
+impl Size146Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<146,1> { type Archetype = Size146Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<146,1> {}
+                    
+/// A type with a size of `146` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size146Align2([::core::mem::MaybeUninit<u16>; 73]);
+impl Size146Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<146,2> { type Archetype = Size146Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<146,2> {}
+                    
+/// A type with a size of `147` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size147Align1([::core::mem::MaybeUninit<u8>; 147]);
+impl Size147Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<147,1> { type Archetype = Size147Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<147,1> {}
+                    
+/// A type with a size of `148` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size148Align1([::core::mem::MaybeUninit<u8>; 148]);
+impl Size148Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<148,1> { type Archetype = Size148Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<148,1> {}
+                    
+/// A type with a size of `148` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size148Align2([::core::mem::MaybeUninit<u16>; 74]);
+impl Size148Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<148,2> { type Archetype = Size148Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<148,2> {}
+                    
+/// A type with a size of `148` bytes and alignment `4`.
+#[repr(C, align(4))]
+pub struct Size148Align4([::core::mem::MaybeUninit<u32>; 37]);
+impl Size148Align4 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<148,4> { type Archetype = Size148Align4; }
+impl crate::private::Sealed for crate::SizeAndAlign<148,4> {}
+                    
+/// A type with a size of `149` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size149Align1([::core::mem::MaybeUninit<u8>; 149]);
+impl Size149Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<149,1> { type Archetype = Size149Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<149,1> {}
+                    
+/// A type with a size of `150` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size150Align1([::core::mem::MaybeUninit<u8>; 150]);
+impl Size150Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<150,1> { type Archetype = Size150Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<150,1> {}
+                    
+/// A type with a size of `150` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size150Align2([::core::mem::MaybeUninit<u16>; 75]);
+impl Size150Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<150,2> { type Archetype = Size150Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<150,2> {}
+                    
+/// A type with a size of `151` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size151Align1([::core::mem::MaybeUninit<u8>; 151]);
+impl Size151Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<151,1> { type Archetype = Size151Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<151,1> {}
+                    
+/// A type with a size of `152` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size152Align1([::core::mem::MaybeUninit<u8>; 152]);
+impl Size152Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<152,1> { type Archetype = Size152Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<152,1> {}
+                    
+/// A type with a size of `152` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size152Align2([::core::mem::MaybeUninit<u16>; 76]);
+impl Size152Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<152,2> { type Archetype = Size152Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<152,2> {}
+                    
+/// A type with a size of `152` bytes and alignment `4`.
+#[repr(C, align(4))]
+pub struct Size152Align4([::core::mem::MaybeUninit<u32>; 38]);
+impl Size152Align4 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<152,4> { type Archetype = Size152Align4; }
+impl crate::private::Sealed for crate::SizeAndAlign<152,4> {}
+                    
+/// A type with a size of `152` bytes and alignment `8`.
+#[repr(C, align(8))]
+pub struct Size152Align8([::core::mem::MaybeUninit<u64>; 19]);
+impl Size152Align8 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<152,8> { type Archetype = Size152Align8; }
+impl crate::private::Sealed for crate::SizeAndAlign<152,8> {}
+                    
+/// A type with a size of `153` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size153Align1([::core::mem::MaybeUninit<u8>; 153]);
+impl Size153Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<153,1> { type Archetype = Size153Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<153,1> {}
+                    
+/// A type with a size of `154` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size154Align1([::core::mem::MaybeUninit<u8>; 154]);
+impl Size154Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<154,1> { type Archetype = Size154Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<154,1> {}
+                    
+/// A type with a size of `154` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size154Align2([::core::mem::MaybeUninit<u16>; 77]);
+impl Size154Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<154,2> { type Archetype = Size154Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<154,2> {}
+                    
+/// A type with a size of `155` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size155Align1([::core::mem::MaybeUninit<u8>; 155]);
+impl Size155Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<155,1> { type Archetype = Size155Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<155,1> {}
+                    
+/// A type with a size of `156` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size156Align1([::core::mem::MaybeUninit<u8>; 156]);
+impl Size156Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<156,1> { type Archetype = Size156Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<156,1> {}
+                    
+/// A type with a size of `156` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size156Align2([::core::mem::MaybeUninit<u16>; 78]);
+impl Size156Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<156,2> { type Archetype = Size156Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<156,2> {}
+                    
+/// A type with a size of `156` bytes and alignment `4`.
+#[repr(C, align(4))]
+pub struct Size156Align4([::core::mem::MaybeUninit<u32>; 39]);
+impl Size156Align4 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<156,4> { type Archetype = Size156Align4; }
+impl crate::private::Sealed for crate::SizeAndAlign<156,4> {}
+                    
+/// A type with a size of `157` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size157Align1([::core::mem::MaybeUninit<u8>; 157]);
+impl Size157Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<157,1> { type Archetype = Size157Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<157,1> {}
+                    
+/// A type with a size of `158` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size158Align1([::core::mem::MaybeUninit<u8>; 158]);
+impl Size158Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<158,1> { type Archetype = Size158Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<158,1> {}
+                    
+/// A type with a size of `158` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size158Align2([::core::mem::MaybeUninit<u16>; 79]);
+impl Size158Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<158,2> { type Archetype = Size158Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<158,2> {}
+                    
+/// A type with a size of `159` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size159Align1([::core::mem::MaybeUninit<u8>; 159]);
+impl Size159Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<159,1> { type Archetype = Size159Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<159,1> {}
+                    
+/// A type with a size of `160` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size160Align1([::core::mem::MaybeUninit<u8>; 160]);
+impl Size160Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<160,1> { type Archetype = Size160Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<160,1> {}
+                    
+/// A type with a size of `160` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size160Align2([::core::mem::MaybeUninit<u16>; 80]);
+impl Size160Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<160,2> { type Archetype = Size160Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<160,2> {}
+                    
+/// A type with a size of `160` bytes and alignment `4`.
+#[repr(C, align(4))]
+pub struct Size160Align4([::core::mem::MaybeUninit<u32>; 40]);
+impl Size160Align4 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<160,4> { type Archetype = Size160Align4; }
+impl crate::private::Sealed for crate::SizeAndAlign<160,4> {}
+                    
+/// A type with a size of `160` bytes and alignment `8`.
+#[repr(C, align(8))]
+pub struct Size160Align8([::core::mem::MaybeUninit<u64>; 20]);
+impl Size160Align8 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<160,8> { type Archetype = Size160Align8; }
+impl crate::private::Sealed for crate::SizeAndAlign<160,8> {}
+                    
+/// A type with a size of `160` bytes and alignment `16`.
+#[repr(C, align(16))]
+pub struct Size160Align16([::core::mem::MaybeUninit<u128>; 10]);
+impl Size160Align16 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<160,16> { type Archetype = Size160Align16; }
+impl crate::private::Sealed for crate::SizeAndAlign<160,16> {}
+                    
+/// A type with a size of `161` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size161Align1([::core::mem::MaybeUninit<u8>; 161]);
+impl Size161Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<161,1> { type Archetype = Size161Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<161,1> {}
+                    
+/// A type with a size of `162` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size162Align1([::core::mem::MaybeUninit<u8>; 162]);
+impl Size162Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<162,1> { type Archetype = Size162Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<162,1> {}
+                    
+/// A type with a size of `162` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size162Align2([::core::mem::MaybeUninit<u16>; 81]);
+impl Size162Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<162,2> { type Archetype = Size162Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<162,2> {}
+                    
+/// A type with a size of `163` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size163Align1([::core::mem::MaybeUninit<u8>; 163]);
+impl Size163Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<163,1> { type Archetype = Size163Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<163,1> {}
+                    
+/// A type with a size of `164` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size164Align1([::core::mem::MaybeUninit<u8>; 164]);
+impl Size164Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<164,1> { type Archetype = Size164Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<164,1> {}
+                    
+/// A type with a size of `164` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size164Align2([::core::mem::MaybeUninit<u16>; 82]);
+impl Size164Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<164,2> { type Archetype = Size164Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<164,2> {}
+                    
+/// A type with a size of `164` bytes and alignment `4`.
+#[repr(C, align(4))]
+pub struct Size164Align4([::core::mem::MaybeUninit<u32>; 41]);
+impl Size164Align4 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<164,4> { type Archetype = Size164Align4; }
+impl crate::private::Sealed for crate::SizeAndAlign<164,4> {}
+                    
+/// A type with a size of `165` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size165Align1([::core::mem::MaybeUninit<u8>; 165]);
+impl Size165Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<165,1> { type Archetype = Size165Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<165,1> {}
+                    
+/// A type with a size of `166` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size166Align1([::core::mem::MaybeUninit<u8>; 166]);
+impl Size166Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<166,1> { type Archetype = Size166Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<166,1> {}
+                    
+/// A type with a size of `166` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size166Align2([::core::mem::MaybeUninit<u16>; 83]);
+impl Size166Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<166,2> { type Archetype = Size166Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<166,2> {}
+                    
+/// A type with a size of `167` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size167Align1([::core::mem::MaybeUninit<u8>; 167]);
+impl Size167Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<167,1> { type Archetype = Size167Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<167,1> {}
+                    
+/// A type with a size of `168` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size168Align1([::core::mem::MaybeUninit<u8>; 168]);
+impl Size168Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<168,1> { type Archetype = Size168Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<168,1> {}
+                    
+/// A type with a size of `168` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size168Align2([::core::mem::MaybeUninit<u16>; 84]);
+impl Size168Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<168,2> { type Archetype = Size168Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<168,2> {}
+                    
+/// A type with a size of `168` bytes and alignment `4`.
+#[repr(C, align(4))]
+pub struct Size168Align4([::core::mem::MaybeUninit<u32>; 42]);
+impl Size168Align4 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<168,4> { type Archetype = Size168Align4; }
+impl crate::private::Sealed for crate::SizeAndAlign<168,4> {}
+                    
+/// A type with a size of `168` bytes and alignment `8`.
+#[repr(C, align(8))]
+pub struct Size168Align8([::core::mem::MaybeUninit<u64>; 21]);
+impl Size168Align8 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<168,8> { type Archetype = Size168Align8; }
+impl crate::private::Sealed for crate::SizeAndAlign<168,8> {}
+                    
+/// A type with a size of `169` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size169Align1([::core::mem::MaybeUninit<u8>; 169]);
+impl Size169Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<169,1> { type Archetype = Size169Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<169,1> {}
+                    
+/// A type with a size of `170` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size170Align1([::core::mem::MaybeUninit<u8>; 170]);
+impl Size170Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<170,1> { type Archetype = Size170Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<170,1> {}
+                    
+/// A type with a size of `170` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size170Align2([::core::mem::MaybeUninit<u16>; 85]);
+impl Size170Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<170,2> { type Archetype = Size170Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<170,2> {}
+                    
+/// A type with a size of `171` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size171Align1([::core::mem::MaybeUninit<u8>; 171]);
+impl Size171Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<171,1> { type Archetype = Size171Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<171,1> {}
+                    
+/// A type with a size of `172` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size172Align1([::core::mem::MaybeUninit<u8>; 172]);
+impl Size172Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<172,1> { type Archetype = Size172Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<172,1> {}
+                    
+/// A type with a size of `172` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size172Align2([::core::mem::MaybeUninit<u16>; 86]);
+impl Size172Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<172,2> { type Archetype = Size172Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<172,2> {}
+                    
+/// A type with a size of `172` bytes and alignment `4`.
+#[repr(C, align(4))]
+pub struct Size172Align4([::core::mem::MaybeUninit<u32>; 43]);
+impl Size172Align4 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<172,4> { type Archetype = Size172Align4; }
+impl crate::private::Sealed for crate::SizeAndAlign<172,4> {}
+                    
+/// A type with a size of `173` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size173Align1([::core::mem::MaybeUninit<u8>; 173]);
+impl Size173Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<173,1> { type Archetype = Size173Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<173,1> {}
+                    
+/// A type with a size of `174` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size174Align1([::core::mem::MaybeUninit<u8>; 174]);
+impl Size174Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<174,1> { type Archetype = Size174Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<174,1> {}
+                    
+/// A type with a size of `174` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size174Align2([::core::mem::MaybeUninit<u16>; 87]);
+impl Size174Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<174,2> { type Archetype = Size174Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<174,2> {}
+                    
+/// A type with a size of `175` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size175Align1([::core::mem::MaybeUninit<u8>; 175]);
+impl Size175Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<175,1> { type Archetype = Size175Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<175,1> {}
+                    
+/// A type with a size of `176` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size176Align1([::core::mem::MaybeUninit<u8>; 176]);
+impl Size176Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<176,1> { type Archetype = Size176Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<176,1> {}
+                    
+/// A type with a size of `176` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size176Align2([::core::mem::MaybeUninit<u16>; 88]);
+impl Size176Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<176,2> { type Archetype = Size176Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<176,2> {}
+                    
+/// A type with a size of `176` bytes and alignment `4`.
+#[repr(C, align(4))]
+pub struct Size176Align4([::core::mem::MaybeUninit<u32>; 44]);
+impl Size176Align4 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<176,4> { type Archetype = Size176Align4; }
+impl crate::private::Sealed for crate::SizeAndAlign<176,4> {}
+                    
+/// A type with a size of `176` bytes and alignment `8`.
+#[repr(C, align(8))]
+pub struct Size176Align8([::core::mem::MaybeUninit<u64>; 22]);
+impl Size176Align8 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<176,8> { type Archetype = Size176Align8; }
+impl crate::private::Sealed for crate::SizeAndAlign<176,8> {}
+                    
+/// A type with a size of `176` bytes and alignment `16`.
+#[repr(C, align(16))]
+pub struct Size176Align16([::core::mem::MaybeUninit<u128>; 11]);
+impl Size176Align16 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<176,16> { type Archetype = Size176Align16; }
+impl crate::private::Sealed for crate::SizeAndAlign<176,16> {}
+                    
+/// A type with a size of `177` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size177Align1([::core::mem::MaybeUninit<u8>; 177]);
+impl Size177Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<177,1> { type Archetype = Size177Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<177,1> {}
+                    
+/// A type with a size of `178` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size178Align1([::core::mem::MaybeUninit<u8>; 178]);
+impl Size178Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<178,1> { type Archetype = Size178Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<178,1> {}
+                    
+/// A type with a size of `178` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size178Align2([::core::mem::MaybeUninit<u16>; 89]);
+impl Size178Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<178,2> { type Archetype = Size178Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<178,2> {}
+                    
+/// A type with a size of `179` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size179Align1([::core::mem::MaybeUninit<u8>; 179]);
+impl Size179Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<179,1> { type Archetype = Size179Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<179,1> {}
+                    
+/// A type with a size of `180` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size180Align1([::core::mem::MaybeUninit<u8>; 180]);
+impl Size180Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<180,1> { type Archetype = Size180Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<180,1> {}
+                    
+/// A type with a size of `180` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size180Align2([::core::mem::MaybeUninit<u16>; 90]);
+impl Size180Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<180,2> { type Archetype = Size180Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<180,2> {}
+                    
+/// A type with a size of `180` bytes and alignment `4`.
+#[repr(C, align(4))]
+pub struct Size180Align4([::core::mem::MaybeUninit<u32>; 45]);
+impl Size180Align4 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<180,4> { type Archetype = Size180Align4; }
+impl crate::private::Sealed for crate::SizeAndAlign<180,4> {}
+                    
+/// A type with a size of `181` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size181Align1([::core::mem::MaybeUninit<u8>; 181]);
+impl Size181Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<181,1> { type Archetype = Size181Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<181,1> {}
+                    
+/// A type with a size of `182` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size182Align1([::core::mem::MaybeUninit<u8>; 182]);
+impl Size182Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<182,1> { type Archetype = Size182Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<182,1> {}
+                    
+/// A type with a size of `182` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size182Align2([::core::mem::MaybeUninit<u16>; 91]);
+impl Size182Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<182,2> { type Archetype = Size182Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<182,2> {}
+                    
+/// A type with a size of `183` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size183Align1([::core::mem::MaybeUninit<u8>; 183]);
+impl Size183Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<183,1> { type Archetype = Size183Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<183,1> {}
+                    
+/// A type with a size of `184` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size184Align1([::core::mem::MaybeUninit<u8>; 184]);
+impl Size184Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<184,1> { type Archetype = Size184Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<184,1> {}
+                    
+/// A type with a size of `184` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size184Align2([::core::mem::MaybeUninit<u16>; 92]);
+impl Size184Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<184,2> { type Archetype = Size184Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<184,2> {}
+                    
+/// A type with a size of `184` bytes and alignment `4`.
+#[repr(C, align(4))]
+pub struct Size184Align4([::core::mem::MaybeUninit<u32>; 46]);
+impl Size184Align4 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<184,4> { type Archetype = Size184Align4; }
+impl crate::private::Sealed for crate::SizeAndAlign<184,4> {}
+                    
+/// A type with a size of `184` bytes and alignment `8`.
+#[repr(C, align(8))]
+pub struct Size184Align8([::core::mem::MaybeUninit<u64>; 23]);
+impl Size184Align8 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<184,8> { type Archetype = Size184Align8; }
+impl crate::private::Sealed for crate::SizeAndAlign<184,8> {}
+                    
+/// A type with a size of `185` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size185Align1([::core::mem::MaybeUninit<u8>; 185]);
+impl Size185Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<185,1> { type Archetype = Size185Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<185,1> {}
+                    
+/// A type with a size of `186` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size186Align1([::core::mem::MaybeUninit<u8>; 186]);
+impl Size186Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<186,1> { type Archetype = Size186Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<186,1> {}
+                    
+/// A type with a size of `186` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size186Align2([::core::mem::MaybeUninit<u16>; 93]);
+impl Size186Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<186,2> { type Archetype = Size186Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<186,2> {}
+                    
+/// A type with a size of `187` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size187Align1([::core::mem::MaybeUninit<u8>; 187]);
+impl Size187Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<187,1> { type Archetype = Size187Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<187,1> {}
+                    
+/// A type with a size of `188` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size188Align1([::core::mem::MaybeUninit<u8>; 188]);
+impl Size188Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<188,1> { type Archetype = Size188Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<188,1> {}
+                    
+/// A type with a size of `188` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size188Align2([::core::mem::MaybeUninit<u16>; 94]);
+impl Size188Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<188,2> { type Archetype = Size188Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<188,2> {}
+                    
+/// A type with a size of `188` bytes and alignment `4`.
+#[repr(C, align(4))]
+pub struct Size188Align4([::core::mem::MaybeUninit<u32>; 47]);
+impl Size188Align4 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<188,4> { type Archetype = Size188Align4; }
+impl crate::private::Sealed for crate::SizeAndAlign<188,4> {}
+                    
+/// A type with a size of `189` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size189Align1([::core::mem::MaybeUninit<u8>; 189]);
+impl Size189Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<189,1> { type Archetype = Size189Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<189,1> {}
+                    
+/// A type with a size of `190` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size190Align1([::core::mem::MaybeUninit<u8>; 190]);
+impl Size190Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<190,1> { type Archetype = Size190Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<190,1> {}
+                    
+/// A type with a size of `190` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size190Align2([::core::mem::MaybeUninit<u16>; 95]);
+impl Size190Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<190,2> { type Archetype = Size190Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<190,2> {}
+                    
+/// A type with a size of `191` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size191Align1([::core::mem::MaybeUninit<u8>; 191]);
+impl Size191Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<191,1> { type Archetype = Size191Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<191,1> {}
+                    
+/// A type with a size of `192` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size192Align1([::core::mem::MaybeUninit<u8>; 192]);
+impl Size192Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<192,1> { type Archetype = Size192Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<192,1> {}
+                    
+/// A type with a size of `192` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size192Align2([::core::mem::MaybeUninit<u16>; 96]);
+impl Size192Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<192,2> { type Archetype = Size192Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<192,2> {}
+                    
+/// A type with a size of `192` bytes and alignment `4`.
+#[repr(C, align(4))]
+pub struct Size192Align4([::core::mem::MaybeUninit<u32>; 48]);
+impl Size192Align4 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<192,4> { type Archetype = Size192Align4; }
+impl crate::private::Sealed for crate::SizeAndAlign<192,4> {}
+                    
+/// A type with a size of `192` bytes and alignment `8`.
+#[repr(C, align(8))]
+pub struct Size192Align8([::core::mem::MaybeUninit<u64>; 24]);
+impl Size192Align8 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<192,8> { type Archetype = Size192Align8; }
+impl crate::private::Sealed for crate::SizeAndAlign<192,8> {}
+                    
+/// A type with a size of `192` bytes and alignment `16`.
+#[repr(C, align(16))]
+pub struct Size192Align16([::core::mem::MaybeUninit<u128>; 12]);
+impl Size192Align16 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<192,16> { type Archetype = Size192Align16; }
+impl crate::private::Sealed for crate::SizeAndAlign<192,16> {}
+                    
+/// A type with a size of `193` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size193Align1([::core::mem::MaybeUninit<u8>; 193]);
+impl Size193Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<193,1> { type Archetype = Size193Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<193,1> {}
+                    
+/// A type with a size of `194` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size194Align1([::core::mem::MaybeUninit<u8>; 194]);
+impl Size194Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<194,1> { type Archetype = Size194Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<194,1> {}
+                    
+/// A type with a size of `194` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size194Align2([::core::mem::MaybeUninit<u16>; 97]);
+impl Size194Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<194,2> { type Archetype = Size194Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<194,2> {}
+                    
+/// A type with a size of `195` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size195Align1([::core::mem::MaybeUninit<u8>; 195]);
+impl Size195Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<195,1> { type Archetype = Size195Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<195,1> {}
+                    
+/// A type with a size of `196` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size196Align1([::core::mem::MaybeUninit<u8>; 196]);
+impl Size196Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<196,1> { type Archetype = Size196Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<196,1> {}
+                    
+/// A type with a size of `196` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size196Align2([::core::mem::MaybeUninit<u16>; 98]);
+impl Size196Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<196,2> { type Archetype = Size196Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<196,2> {}
+                    
+/// A type with a size of `196` bytes and alignment `4`.
+#[repr(C, align(4))]
+pub struct Size196Align4([::core::mem::MaybeUninit<u32>; 49]);
+impl Size196Align4 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<196,4> { type Archetype = Size196Align4; }
+impl crate::private::Sealed for crate::SizeAndAlign<196,4> {}
+                    
+/// A type with a size of `197` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size197Align1([::core::mem::MaybeUninit<u8>; 197]);
+impl Size197Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<197,1> { type Archetype = Size197Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<197,1> {}
+                    
+/// A type with a size of `198` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size198Align1([::core::mem::MaybeUninit<u8>; 198]);
+impl Size198Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<198,1> { type Archetype = Size198Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<198,1> {}
+                    
+/// A type with a size of `198` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size198Align2([::core::mem::MaybeUninit<u16>; 99]);
+impl Size198Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<198,2> { type Archetype = Size198Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<198,2> {}
+                    
+/// A type with a size of `199` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size199Align1([::core::mem::MaybeUninit<u8>; 199]);
+impl Size199Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<199,1> { type Archetype = Size199Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<199,1> {}
+                    
+/// A type with a size of `200` bytes and alignment `1`.
+#[repr(C, align(1))]
+pub struct Size200Align1([::core::mem::MaybeUninit<u8>; 200]);
+impl Size200Align1 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<200,1> { type Archetype = Size200Align1; }
+impl crate::private::Sealed for crate::SizeAndAlign<200,1> {}
+                    
+/// A type with a size of `200` bytes and alignment `2`.
+#[repr(C, align(2))]
+pub struct Size200Align2([::core::mem::MaybeUninit<u16>; 100]);
+impl Size200Align2 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<200,2> { type Archetype = Size200Align2; }
+impl crate::private::Sealed for crate::SizeAndAlign<200,2> {}
+                    
+/// A type with a size of `200` bytes and alignment `4`.
+#[repr(C, align(4))]
+pub struct Size200Align4([::core::mem::MaybeUninit<u32>; 50]);
+impl Size200Align4 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<200,4> { type Archetype = Size200Align4; }
+impl crate::private::Sealed for crate::SizeAndAlign<200,4> {}
+                    
+/// A type with a size of `200` bytes and alignment `8`.
+#[repr(C, align(8))]
+pub struct Size200Align8([::core::mem::MaybeUninit<u64>; 25]);
+impl Size200Align8 {
+    pub const unsafe fn new_uninit() -> Self {
+        Self([::core::mem::MaybeUninit::uninit(); _])
+    }
+    pub const unsafe fn new_zeroed() -> Self {
+        Self([::core::mem::MaybeUninit::zeroed(); _])
+    }
+}
+
+unsafe impl crate::Mimic for crate::SizeAndAlign<200,8> { type Archetype = Size200Align8; }
+impl crate::private::Sealed for crate::SizeAndAlign<200,8> {}
+                    
